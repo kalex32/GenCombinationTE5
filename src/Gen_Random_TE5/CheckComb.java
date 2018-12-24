@@ -2,7 +2,7 @@ package Gen_Random_TE5;
 
 class CheckComb {
 
-    private static int jump = 6;
+    private static int jump = 5;
 
     static void setJump(int jump) {
         CheckComb.jump = jump;
