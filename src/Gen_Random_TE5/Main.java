@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(GenRandom.comb()));
+        int[] comb1 = GenRandom.comb();
+        System.out.println(Arrays.toString(comb1));
+
+        if (CheckComb.check(comb1)){
+            System.out.println(Arrays.toString(ChangeTo0.changeTo0(comb1)));
+        } else {
+            System.out.println("No");
+        }
     }
 }
