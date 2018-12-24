@@ -11,6 +11,6 @@ public class Main {
 
         } while (!CheckComb.check(comb1));
         System.out.println(Arrays.toString(ChangeTo0.changeTo0(comb1)));
-    
+
     }
 }
