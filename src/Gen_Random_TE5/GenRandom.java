@@ -4,9 +4,11 @@ class GenRandom {
 
 
     static int[] comb() {
+        int a = 2;
+        int b = 8;
         int[] combination = new int[5];
         for (int i = 0; i < combination.length; i++) {
-            combination[i] = (int) ((Math.random() * 10) + 1);
+            combination[i] = a + (int) (Math.random() * b);
         }
         return combination;
     }
